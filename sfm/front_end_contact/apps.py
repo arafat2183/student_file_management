@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class StudentProfileConfig(AppConfig):
+class FrontEndContactConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'student_profile'
+    name = 'front_end_contact'
