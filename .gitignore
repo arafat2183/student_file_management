@@ -1,0 +1,4 @@
+venv/
+sfm/sfm/settings.py
+*.pyc
+.idea/workspace.xml
