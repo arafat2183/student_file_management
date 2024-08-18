@@ -22,4 +22,5 @@ urlpatterns = [
     path('about/', include('front_end_about.urls')),
     path('services/', include('front_end_services.urls')),
     path('contact/', include('front_end_contact.urls')),
+    path('blog/', include('front_end_blog.urls')),
 ]

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'front_end_about',
     'front_end_services',
     'front_end_contact',
+    'front_end_blog',
 ]
 
 MIDDLEWARE = [
