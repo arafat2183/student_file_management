@@ -10,19 +10,19 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                        <li class="nav-item {% if active_page == 'home' %}active{% endif %}">
                            <a class="nav-link" href="{% url 'home' %}">Home</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item {% if active_page == 'about' %}active{% endif %}">
                            <a class="nav-link" href="{% url 'about' %}">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {% if active_page == 'services' %}active{% endif %}">
                            <a class="nav-link" href="{% url 'services' %}">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {% if active_page == 'blog' %}active{% endif %}">
                            <a class="nav-link" href="{% url 'blog' %}">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {% if active_page == 'contact' %}active{% endif %}">
                            <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
                         </li>
                      </ul>

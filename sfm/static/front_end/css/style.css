@@ -242,6 +242,16 @@ button {
     padding-top: 20px;
 }
 
+.banner_main_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
 .header_bg{
     background-color: #e7e7f6;
 }
