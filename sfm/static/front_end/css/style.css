@@ -766,13 +766,14 @@ button {
 }
 
 
+.auth_buttons a {
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
 
-
-
-
-
-
-
+  .auth_buttons img {
+    width: 24px; /* Adjust icon size as needed */
+    height: auto;
+  }
 
 
 #main_slider a.carousel-control-prev {
