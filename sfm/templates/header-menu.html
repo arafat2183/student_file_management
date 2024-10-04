@@ -4,7 +4,7 @@
          <div class="header_bg">
             <div class="container">
                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <a class="logo" href="{% url 'home' %}"><img src="{% static 'front_end/images/rikai_main_logo.png' %}"></a>
+                  <a class="logo" href="{% url 'home' %}"><img src="{% static 'front_end/images/logo.png' %}"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                   </button>
@@ -33,6 +33,11 @@
                            <li><a href="#"><img src="{% static 'front_end/images/linkedin-icon.png' %}"></a></li>
                            <li><a href="#"><img src="{% static 'front_end/images/instagram-icon.png' %}"></a></li>
                            <div class="donate_bt"><a href="#"><img src="{% static 'front_end/images/search-icon.png' %}"></a></div>
+                           <div class="auth_buttons">
+                              <li><a href="{% url 'login' %}"><img src="{% static 'front_end/images/login.png' %}" alt="Login"></a></li>
+                              <li><a href="{% url 'register' %}"><img src="{% static 'front_end/images/signup.png' %}" alt="Sign Up"></a></li>
+                              <li><a href="#"><img src="{% static 'front_end/images/logout.png' %}" alt="Logout"></a></li>
+                           </div>
                         </ul>
                      </div>
                   </div>
