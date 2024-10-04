@@ -23,4 +23,5 @@ urlpatterns = [
     path('services/', include('front_end_services.urls')),
     path('contact/', include('front_end_contact.urls')),
     path('blog/', include('front_end_blog.urls')),
+    path('user/', include('user.urls')),
 ]

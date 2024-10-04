@@ -34,8 +34,9 @@
                            <li><a href="#"><img src="{% static 'front_end/images/instagram-icon.png' %}"></a></li>
                            <div class="donate_bt"><a href="#"><img src="{% static 'front_end/images/search-icon.png' %}"></a></div>
                            <div class="auth_buttons">
-                              <li><a href="#"><img src="{% static 'front_end/images/login.png' %}" alt="Login"></a></li>
-                              <li><a href="#"><img src="{% static 'front_end/images/signup.png' %}" alt="Sign Up"></a></li>
+                              <li><a href="{% url 'login' %}"><img src="{% static 'front_end/images/login.png' %}" alt="Login"></a></li>
+                              <li><a href="{% url 'register' %}"><img src="{% static 'front_end/images/signup.png' %}" alt="Sign Up"></a></li>
+                              <li><a href="#"><img src="{% static 'front_end/images/logout.png' %}" alt="Logout"></a></li>
                            </div>
                         </ul>
                      </div>
